@@ -2,9 +2,7 @@ body{
     text-align: center;
 }
 
-h1{
-  text-align: center;
-}
-.container{
-    text-align: left;
+#menu {
+    text-align: center;
+    width: 100%;
 }
