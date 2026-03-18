@@ -116,3 +116,24 @@ h1 {
       }
     }
   </style>
+<div style="font-family: Arial, sans-serif; padding: 20px;">
+  <h2 style="color: #333; margin-bottom: 10px;">Informações do Estabelecimento</h2>
+  <div style="border-left: 5px solid #4CAF50; padding-left: 15px; margin-bottom: 20px;">
+    <h3 style="color: #4CAF50; margin-bottom: 5px;">Endereço</h3>
+    <p style="color: #666; margin: 0;">Rua Sourtudo Braga 245</p>
+  </div>
+  <div style="border-left: 5px solid #2196F3; padding-left: 15px; margin-bottom: 20px;">
+    <h3 style="color: #2196F3; margin-bottom: 5px;">Horário de Funcionamento</h3>
+    <p style="color: #666; margin: 0;">Segunda à Sábado, 8h às 18h</p>
+    <p style="color: #666; margin: 0;">Domingo e Feriados, 9h às 13h</p>
+  </div>
+  <div style="border-left: 5px solid #E91E63; padding-left: 15px;">
+    <h3 style="color: #E91E63; margin-bottom: 5px;">Contatos</h3>
+    <ul style="color: #666; margin: 0; padding-left: 20px;">
+      <li>@rss-0-x</li>
+      <li>@gah ... ba</li>
+      <li>@milf-5</li>
+      <li>@Whatsapp !</li>
+    </ul>
+  </div>
+</div>
