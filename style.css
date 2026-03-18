@@ -2,7 +2,72 @@ body{
     text-align: center;
 }
 
-#menu {
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
     text-align: center;
-    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* O Segredo do Layout: Grid */
+.grid {
+    display: grid;
+    /* Cria colunas que se ajustam sozinhas (mínimo 300px cada) */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Espaço entre os cartões */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo dos Cartões */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-top: 5px solid #ff6b6b; /* Uma corzinha para decorar */
+}
+
+h2 {
+    color: #ff6b6b;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.preco {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.info {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9em;
 }
