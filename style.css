@@ -1,7 +1,43 @@
 body{
     text-align: center;
 }
+/* Estilos para a Página Inicial */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Faz o conteúdo ficar centralizado verticalmente */
+    text-align: center;
+}
 
+.subtitle {
+    font-weight: bold;
+    color: #ff6b6b;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-top: 5px;
+}
+
+.btn-menu {
+    width: 200px; /* Ajuste o tamanho da sua imagem aqui */
+    transition: transform 0.3s ease; /* Efeito de movimento */
+}
+
+.btn-menu:hover {
+    transform: scale(1.1); /* O sorvete aumenta um pouco quando passa o mouse */
+}
+
+.menu-link a {
+    text-decoration: none;
+    color: #ff6b6b;
+    font-weight: bold;
+}
  <style>
     body {
       margin: 0;
