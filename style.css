@@ -115,3 +115,34 @@ h1 {
         grid-template-columns: 1fr;
       }
         
+<style>
+.Box {
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(27,31,35,0.075), 0 1px 3px rgba(27,31,35,0.15);
+  margin-bottom: 16px;
+}
+
+.Box-header {
+  background-color: #f0f6fc;
+  border-bottom: 1px solid #d0d7de;
+  padding: 16px;
+}
+
+.Box-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.Box-body {
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+</style>
