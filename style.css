@@ -146,3 +146,63 @@ ul {
   padding-left: 0;
 }
 </style>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  .Box {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .Box:hover {
+    transform: scale(1.03);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 4px 0;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+  }
+
+  @media(max-width: 700px){
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
