@@ -2,72 +2,80 @@ body{
     text-align: center;
 }
 
-/* Configurações Gerais */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 20px;
-    color: #333;
-}
+ <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
 
-/* O Segredo do Layout: Grid */
-.grid {
-    display: grid;
-    /* Cria colunas que se ajustam sozinhas (mínimo 300px cada) */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px; /* Espaço entre os cartões */
-    max-width: 1200px;
-    margin: 0 auto;
-}
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      letter-spacing: 4px;
+    }
 
-/* Estilo dos Cartões */
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    border-top: 5px solid #ff6b6b; /* Uma corzinha para decorar */
-}
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 20px;
+    }
 
-h2 {
-    color: #ff6b6b;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-top: 0;
-}
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
+    .card {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
 
-li {
-    padding: 5px 0;
-    border-bottom: 1px dashed #eee;
-    display: flex;
-    justify-content: space-between;
-}
+    .card:hover {
+      transform: scale(1.03);
+    }
 
-.preco {
-    font-weight: bold;
-    color: #27ae60;
-}
+    ul {
+      list-style: none;
+      padding: 0;
+    }
 
-.info {
-    font-size: 0.8em;
-    font-style: italic;
-    color: #777;
-}
+    li {
+      padding: 4px 0;
+    }
 
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    font-size: 0.9em;
-}
+    .preco {
+      float: right;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .info {
+      font-size: 14px;
+      color: gray;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: gray;
+    }
+
+    @media(max-width: 700px){
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
